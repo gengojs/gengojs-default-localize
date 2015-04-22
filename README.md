@@ -5,7 +5,7 @@ The default accept plugin for gengo.js, the best i18n library for Express, Koa, 
 
 [![Build Status](https://travis-ci.org/iwatakeshi/gengojs-default-localize.svg?branch=master)](https://travis-ci.org/iwatakeshi/gengojs-default-localize)
 
-This module is a "plugified" version of [tokei](https://github.com/iwatakeshi/tokei) for the upcoming [gengo.js](https://github.com/iwatakeshi/gengojs) **1.0.0**.
+This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) for the upcoming [gengo.js](https://github.com/iwatakeshi/gengojs) **1.0.0**.
 
 An example usage with options is:
 
@@ -37,14 +37,33 @@ None
 
 ## Internal API
 
-None
+* `this.localize` (Type:Class/Function)
+
+**Example**:
+
+```js
+// Assuming core's context is in the API class
+var _this = this.context;
+// In the localization API
+function localizeAPI(){
+	// Context
+	return _this.localize.apply(this, arguments);
+}
+```
 
 For more documentation, visit the [GitHub page](https://github.com/iwatakeshi/tokei).
 
 ## Dependencies
 
-`getLocale()` from `Header` class
+`this.header.getLocale()` from `Header` class
 
 ## Debug
 
 None
+
+## Contribute
+
+Feel free to contribute or even fork the project. This plugin has been
+written in ES6 and can be seen under `lib/index.js`. If you would like
+to contribute to the localization library, visit
+[Tokei's GitHub page](https://github.com/iwatakeshi/tokei).

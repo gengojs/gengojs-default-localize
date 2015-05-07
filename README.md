@@ -1,11 +1,11 @@
 # gengojs-default-localize
 The default localisation plugin for gengojs
 
-The default accept plugin for gengo.js, the best i18n library for Express, Koa, Hapi.*
+The default accept plugin for gengo.js.
 
 [![Build Status](https://travis-ci.org/iwatakeshi/gengojs-default-localize.svg?branch=master)](https://travis-ci.org/iwatakeshi/gengojs-default-localize)
 
-This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) for the upcoming [gengo.js](https://github.com/iwatakeshi/gengojs) **1.0.0**.
+This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) [gengo.js](https://github.com/iwatakeshi/gengojs).
 
 An example usage with options is:
 
@@ -15,7 +15,7 @@ var gengo = require('gengojs');
 var localize = require('gengojs-default-header');
 
 /* In whatever framework you are using: */
- 
+
 // I'll use express for an example
 // but it shouldn't matter
 

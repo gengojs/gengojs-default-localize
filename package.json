@@ -2,7 +2,7 @@
   "name": "gengojs-default-localize",
   "version": "0.0.1",
   "description": "The default localisation plugin for gengojs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "gulp test"
   },

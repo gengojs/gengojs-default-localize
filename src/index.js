@@ -15,9 +15,10 @@ exports['default'] = function () {
     },
     'package': _.merge({
       type: 'localize'
-    }, require('./package')),
+    }, require('../package')),
     defaults: {}
   };
 };
 
 module.exports = exports['default'];
+//# sourceMappingURL=source maps/index.js.map

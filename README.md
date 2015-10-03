@@ -1,15 +1,17 @@
 # gengojs-default-localize
 The default localisation plugin for gengojs
 
-The default accept plugin for gengo.js.
-
-[![Build Status](https://travis-ci.org/iwatakeshi/gengojs-default-localize.svg?branch=master)](https://travis-ci.org/iwatakeshi/gengojs-default-localize)
+[![Build Status](https://travis-ci.org/gengojs/plugin-localize.svg?branch=master)](https://travis-ci.org/gengojs/plugin-localize)
 
 This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) [gengo.js](https://github.com/iwatakeshi/gengojs).
 
+## Documentation
+
+See [documentation](https://gengojs.github.io/plugin-localize) or see [Tokei](https://github.com/iwatakeshi/tokei).
+
 An example usage with options is:
 
-```js
+```javascript
 
 var gengo = require('gengojs');
 var localize = require('gengojs-default-header');
@@ -37,29 +39,18 @@ None
 
 ## Internal API
 
-* `this.localize` (Type:Class/Function)
+* `this.localize` from [Tokei](https://github.com/iwatakeshi/tokei)
 
-**Example**:
-
-```js
-// Assuming core's context is in the API class
-var _this = this.context;
-// In the localization API
-function localizeAPI(){
-	// Context
-	return _this.localize.apply(this, arguments);
-}
-```
-
-For more documentation, visit the [GitHub page](https://github.com/iwatakeshi/tokei).
+For more documentation, visit the [Tokei](https://github.com/iwatakeshi/tokei).
 
 ## Dependencies
 
-`this.header.getLocale()` from `Header` class
+* `this.header.getLocale()` from `Header` class
+  * Should return the current locale.
 
 ## Debug
 
-None
+Not Applicable
 
 ## Contribute
 

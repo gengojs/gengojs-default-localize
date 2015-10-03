@@ -3,7 +3,7 @@ The default localisation plugin for gengojs
 
 [![Build Status](https://travis-ci.org/gengojs/plugin-localize.svg?branch=master)](https://travis-ci.org/gengojs/plugin-localize)
 
-This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) [gengo.js](https://github.com/iwatakeshi/gengojs).
+This module is a "plugified" version of [Tokei](https://github.com/iwatakeshi/tokei) for [gengo.js](https://github.com/iwatakeshi/gengojs).
 
 ## Documentation
 

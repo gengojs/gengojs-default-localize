@@ -33,7 +33,7 @@ app.use(gengo({
 The default localize is already included in gengojs so you should not have to require it.
 
 
-##Options
+## Options
 
 None
 

@@ -30,10 +30,12 @@
     "gulp-sourcemaps": "^1.6.0",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.2.4",
+    "mr-doc": "git+https://github.com/mr-doc/mr-doc.git",
+    "mr-doc-theme-cayman": "^1.0.3",
     "rimraf": "^2.4.3"
   },
   "dependencies": {
     "lodash": "^3.6.0",
-    "tokei": "^0.3.0"
+    "tokei": "^0.3.1"
   }
 }

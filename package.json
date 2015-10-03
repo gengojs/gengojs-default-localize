@@ -4,18 +4,18 @@
   "description": "The default localisation plugin for gengojs",
   "main": "index.js",
   "scripts": {
-    "test": "grunt && mocha ./test/*.js"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iwatakeshi/gengojs-default-localize.git"
+    "url": "https://github.com/gengojs/plugin-localize.git"
   },
   "author": "iwatakeshi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iwatakeshi/gengojs-default-localize/issues"
+    "url": "https://github.com/genngojs/plugin-localize/issues"
   },
-  "homepage": "https://github.com/iwatakeshi/gengojs-default-localize",
+  "homepage": "https://github.com/gengojs/plugin-localize",
   "devDependencies": {
     "chai": "^3.2.0",
     "gengojs-core": "0.3.8",

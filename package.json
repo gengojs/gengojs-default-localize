@@ -18,7 +18,7 @@
   "homepage": "https://github.com/gengojs/plugin-localize",
   "devDependencies": {
     "chai": "^3.2.0",
-    "gengojs-core": "0.3.8",
+    "gengojs-core": "0.3.15",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "gulp-changelog": "^1.0.0",

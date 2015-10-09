@@ -1,6 +1,6 @@
 {
   "name": "gengojs-default-localize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The default localisation plugin for gengojs",
   "main": "src/index.js",
   "scripts": {
